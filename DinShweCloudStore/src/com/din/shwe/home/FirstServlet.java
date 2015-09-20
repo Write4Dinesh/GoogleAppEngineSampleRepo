@@ -5,9 +5,10 @@ import javax.servlet.http.*;
 
 @SuppressWarnings("serial")
 public class FirstServlet extends HttpServlet {
-	public void doGet(HttpServletRequest req, HttpServletResponse resp)
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws IOException {
-		resp.setContentType("text/plain");
-		resp.getWriter().println("Welcome! This is a Servlet that created this Html page");
+		response.setContentType("text/plain");
+		response.getWriter().println("Welcome! This is a Servlet that created this Html page");
+	 response.getWriter().println("Another line goes here");
 	}
 }
