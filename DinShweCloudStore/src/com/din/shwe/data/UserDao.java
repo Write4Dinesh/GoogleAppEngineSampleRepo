@@ -22,6 +22,7 @@ public class UserDao {
 		} catch (EntityNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
+			return null;
 		}
 	
 		return this.getUserFromEntity(e);

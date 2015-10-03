@@ -28,11 +28,10 @@ public class LoginServlet extends HttpServlet {
 		String password = request.getParameter("password");
 		if (validate(userName, password)) {
 			createSession(request);
-			RequestDispatcher rd = request.getRequestDispatcher("post_screen.html");
+			RequestDispatcher rd = request.getRequestDispatcher("login_success.html");
 			rd.forward(request, response);
 		} else {
-			respWriter.print("Sorry username or password error");
-			RequestDispatcher rd = request.getRequestDispatcher("index.html");
+			RequestDispatcher rd = request.getRequestDispatcher("login_fail.html");
 			rd.include(request, response);
 		}
 
