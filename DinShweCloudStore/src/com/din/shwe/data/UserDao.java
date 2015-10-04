@@ -16,7 +16,13 @@ public class UserDao {
 	}
 
 	public User getUserByUserName(String userName) {
-		Entity e = new Entity(TableColumn.User.TABLE_NAME,userName);
+		Entity e = null;
+			e = getUserEntityByUserName(userName);
+		
+		return getUserFromEntity(e);
+	}
+	public Entity getUserEntityByUserName(String userName) {
+		Entity e = new Entity(TableColumn.User.TABLE_NAME,userName);// userName acts as unique id in next line
 		try {
 			e = mDataStore.get(e.getKey());
 		} catch (EntityNotFoundException e1) {
@@ -25,9 +31,8 @@ public class UserDao {
 			return null;
 		}
 	
-		return this.getUserFromEntity(e);
+		return e;
 	}
-
 	public boolean removeUserByUserName(String userName) {
 		return true;
 	}

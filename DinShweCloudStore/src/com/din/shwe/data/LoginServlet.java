@@ -17,22 +17,26 @@ import com.din.shwe.data.model.User;
 @SuppressWarnings("serial")
 public class LoginServlet extends HttpServlet {
 	private User mCurrentUser;
+	private HttpServletRequest mHttpRequest;
+	private HttpServletResponse mHttpResponse;
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		mHttpRequest = request;
+		mHttpResponse = response;
 		System.out.println("LoginServlet: Got request");
 		createDummyUser();
-		response.setContentType("text/html");
-		PrintWriter respWriter = response.getWriter();
-		String userName = request.getParameter("user_name");
-		String password = request.getParameter("password");
+		mHttpResponse.setContentType("text/html");
+		PrintWriter respWriter = mHttpResponse.getWriter();
+		String userName = mHttpRequest.getParameter("user_name");
+		String password = mHttpRequest.getParameter("password");
 		if (validate(userName, password)) {
-			createSession(request);
-			RequestDispatcher rd = request.getRequestDispatcher("login_success.html");
-			rd.forward(request, response);
+			createSession();
+			RequestDispatcher rd = mHttpRequest.getRequestDispatcher("login_success.html");
+			rd.forward(mHttpRequest, mHttpResponse);
 		} else {
-			RequestDispatcher rd = request.getRequestDispatcher("login_fail.html");
-			rd.include(request, response);
+			RequestDispatcher rd = mHttpRequest.getRequestDispatcher("login_fail.html");
+			rd.include(mHttpRequest, mHttpResponse);
 		}
 
 		respWriter.close();
@@ -93,18 +97,29 @@ public class LoginServlet extends HttpServlet {
 		return false;
 	}
 
-	private void createSession(HttpServletRequest request) {
+	private void createSession() {
 		// Create a session object if it is already not created.
-		HttpSession session = request.getSession(true);
+		HttpSession session = mHttpRequest.getSession(true);
 		if (mCurrentUser != null) {
 			String sessionId = calculateSessionId(mCurrentUser.getUserName());
 			mCurrentUser.setSessionId(sessionId);
 			UserDao userDao = new UserDao();
 			userDao.updateUser(mCurrentUser);
-			session.setAttribute(TableColumn.User.SESSION_ID,
-					mCurrentUser.getSessionId());
+			session.setAttribute(TableColumn.User.TABLE_NAME,
+					mCurrentUser);
 		} else {
-			System.out.println("PrintLog:currentUser object is null");
+			System.out.println("PrintLog:mCurrentUser object is null.hence failed create session");
+			RequestDispatcher rd = mHttpRequest.getRequestDispatcher("login_fail.html");
+			try {
+				rd.include(mHttpRequest, mHttpResponse);
+			} catch (ServletException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
 		}
 
 	}
@@ -120,7 +135,7 @@ public class LoginServlet extends HttpServlet {
 		dummy.setIsActive(true);
 		dummy.setIsLoggedIn(false);
 		dummy.setName("Dummy");
-		dummy.setUserName("dUserName");
+		dummy.setUserName("dUserName");//is the id. this user updates on subsequent calls
 		dummy.setPassword("dPassword");
 		UserDao userDao =  new UserDao();
 		userDao.addUser(dummy);
