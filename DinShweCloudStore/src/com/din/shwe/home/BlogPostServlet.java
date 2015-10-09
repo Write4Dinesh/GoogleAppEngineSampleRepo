@@ -17,7 +17,13 @@ import com.din.shwe.data.model.User;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
-
+/**
+ * This class retrieves blog post details from the http request and saves the blog information
+ * to data store.once the data has been saved, the acknowledgment will be sent to client by creating 
+ * html content putting the same into http response
+ * @author dinesh.k.masthaiah
+ *
+ */
 @SuppressWarnings("serial")
 public class BlogPostServlet extends HttpServlet {
 	private DatastoreService mDataStore = null;
