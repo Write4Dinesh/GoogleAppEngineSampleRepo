@@ -22,27 +22,16 @@ public class BlogPostReaderServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		String postId = "1443025300483";
-		PostDao pDao = new PostDao();
-		PrintWriter respWriter = resp.getWriter();
-		Post post = pDao.getPostByPostId(postId);
-		
-		System.out.println("Post with id = " + post);
-		respWriter.println("POST with Id=[ " + post + " ]");
-		pDao.remove(post);
-		respWriter.println("****************All POST*****************");
-        for(Post p :pDao.getAll() ){
-        	respWriter.println(p);
-        }
-        resp.getWriter().println("*********************************");
-        pDao.insertPost(post);
-        
-        respWriter.println("****************All POST*****************");
-        for(Post p :pDao.getAll() ){
-        	respWriter.println(p);
-        }
-        resp.getWriter().println("*********************************");
-        
+		PostDao postDao = new PostDao();
+		String operation = req.getParameter("operation");
+		String id = req.getParameter("id");
+		if(operation!=null &&id!=null&& operation.equals("delete")){
+			postDao.removeById(id);
+		}
+		resp.getWriter().println("List Of Posts::");
+		for(Post post : postDao.getAll()){
+			resp.getWriter().println(post);
+		}
 	}
 
 }

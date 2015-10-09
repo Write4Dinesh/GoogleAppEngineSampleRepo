@@ -33,6 +33,7 @@ public class PostDao {
 				Entity e = null;
 				for (Entity result : resultSet) {
 				  postEntities.add(result);
+				  e = result;
 				}
 			
 			return getPostFromEntity(e);
