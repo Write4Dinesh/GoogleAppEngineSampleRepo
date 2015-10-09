@@ -26,7 +26,6 @@ public class UserDao {
 		try {
 			e = mDataStore.get(e.getKey());
 		} catch (EntityNotFoundException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 			return null;
 		}

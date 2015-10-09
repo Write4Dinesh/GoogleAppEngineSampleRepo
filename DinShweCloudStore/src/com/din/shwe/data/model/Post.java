@@ -40,8 +40,8 @@ public class Post {
 
 	@Override
 	public String toString() {
-		return "Post [title=" + title + ", date=" + date + ", message="
-				+ message + "]";
+		return "Post [id=" + id + ", title=" + title + ", date=" + date
+				+ ", message=" + message + "]";
 	}
 
 }
