@@ -1,4 +1,4 @@
-package com.din.shwe.data;
+package com.din.shwe.home;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,8 +11,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.din.shwe.constants.TableColumn;
+import org.apache.juli.logging.Log;
+
+import com.din.shwe.data.UserDao;
 import com.din.shwe.data.model.User;
+import com.din.shwe.utility.TableColumn;
 
 @SuppressWarnings("serial")
 public class LoginServlet extends HttpServlet {
@@ -59,7 +62,12 @@ public class LoginServlet extends HttpServlet {
 			session.setAttribute(userIDKey, userID);
 		} else {
 			visitCount = (Integer) session.getAttribute(visitCountKey);
+			if(visitCount!=null){
 			visitCount = visitCount + 1;
+			}
+			else{
+			System.out.println("Error: something went wrong. pls check it!!!");
+			}
 			userID = (String) session.getAttribute(userIDKey);
 		}
 		session.setAttribute(visitCountKey, visitCount);
@@ -135,8 +143,8 @@ public class LoginServlet extends HttpServlet {
 		dummy.setIsActive(true);
 		dummy.setIsLoggedIn(false);
 		dummy.setName("Dummy");
-		dummy.setUserName("dUserName");//is the id. this user updates on subsequent calls
-		dummy.setPassword("dPassword");
+		dummy.setUserName("DineshMasthaiah");//is the id. this user updates on subsequent calls
+		dummy.setPassword("DinPassword");
 		UserDao userDao =  new UserDao();
 		userDao.addUser(dummy);
 	}

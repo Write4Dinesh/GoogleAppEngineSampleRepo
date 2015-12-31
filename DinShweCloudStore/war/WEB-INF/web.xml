@@ -6,15 +6,15 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet>
 		<servlet-name>BlogPostServlet</servlet-name>
-		<servlet-class>com.din.shwe.home.BlogPostServlet</servlet-class>
+		<servlet-class>com.din.shwe.businesslogic.blog.BlogPostServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>LoginServlet</servlet-name>
-		<servlet-class>com.din.shwe.data.LoginServlet</servlet-class>
+		<servlet-class>com.din.shwe.home.LoginServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>BlogPostReaderServlet</servlet-name>
-		<servlet-class>com.din.shwe.data.BlogPostReaderServlet</servlet-class>
+		<servlet-class>com.din.shwe.businesslogic.blog.BlogPostReaderServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>BlogPostReaderServlet</servlet-name>
@@ -29,6 +29,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/blogpostservlet</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
-		<welcome-file>Hello.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 </web-app>

@@ -1,4 +1,4 @@
-package com.din.shwe.home;
+package com.din.shwe.businesslogic.blog;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -9,11 +9,11 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 
-import com.din.shwe.constants.AppConstants;
-import com.din.shwe.constants.TableColumn;
 import com.din.shwe.data.UserDao;
 import com.din.shwe.data.model.Post;
 import com.din.shwe.data.model.User;
+import com.din.shwe.utility.AppConstants;
+import com.din.shwe.utility.TableColumn;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.din.shwe.data;
+package com.din.shwe.businesslogic.blog;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.din.shwe.data.PostDao;
 import com.din.shwe.data.model.Post;
 
 /**

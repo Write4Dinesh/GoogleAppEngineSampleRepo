@@ -1,4 +1,4 @@
-package com.din.shwe.constants;
+package com.din.shwe.utility;
 
 public class TableColumn {
 	public static final class Post {

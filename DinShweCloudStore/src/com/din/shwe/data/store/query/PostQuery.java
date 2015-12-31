@@ -1,6 +1,6 @@
-package com.din.shwe.data.query;
-import com.din.shwe.constants.TableColumn;
+package com.din.shwe.data.store.query;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.din.shwe.utility.TableColumn;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterPredicate;

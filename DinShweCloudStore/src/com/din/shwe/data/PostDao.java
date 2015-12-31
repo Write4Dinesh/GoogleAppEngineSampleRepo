@@ -3,8 +3,8 @@ package com.din.shwe.data;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.din.shwe.constants.TableColumn;
 import com.din.shwe.data.model.Post;
+import com.din.shwe.utility.TableColumn;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
