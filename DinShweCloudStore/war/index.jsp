@@ -47,17 +47,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="login.jsp">My Login </a>
+                <a class="navbar-brand" href="login.jsp">My Private Login </a>
             </div>
             <!-- Collect the nav links for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">About Me</a>
                     </li>
-                    <li><a href="#hobby">My Hobby</a>
+                    <li><a href="#services">Professional Services</a>
                     </li>
 
-                    <li><a href="#price-sec">My Career</a>
+                    <li><a href="#price-sec">Work Experience</a>
                     </li>
 
                     <li><a href="#contact-sec">Contact Me</a>
@@ -78,7 +78,7 @@
         <div class="row text-center">
             <div class="col-md-12">
                 <h1 class="head-main">DINESH MASTHAIAH</h1>
-                <h2 class="head-sub-main">Software Professional</h2>
+                <h2 class="head-sub-main">Software Consultant,Architect</h2>
                 <a class="btn btn-danger btn-lg " href="#about">Read More About Me </a><a class="btn btn-default btn-lg" href="#contact-sec">Leave Comment About Me</a>
                 <div class="head-last"></div>
 
@@ -109,14 +109,14 @@
     </section>
 
     <!-- Section 2-My Hobby-->
-    <section class="for-full-back color-white" id="hobby">
+    <section class="for-full-back color-white" id="services">
         <div class="container">
 
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1>My Hobby</h1>
+                    <h1>Professional Services</h1>
                     <h4>
-                        <strong>List of hobbies goes here..
+                        <strong>List of professional services offered  goes here..
                         </strong>
                     </h4>
                 </div>
@@ -131,9 +131,9 @@
                         <i class="fa fa-camera fa-4x main-color-red"></i>
 
 
-                        <h3>Hobby1 </h3>
+                        <h3>Service1 </h3>
                         <p>
-                            Description about hobby1
+                            Description about Service1
                         </p>
 
                     </div>
@@ -146,9 +146,9 @@
                         <i class="fa fa-briefcase fa-4x main-color-red"></i>
 
 
-                        <h3>Hobby2</h3>
+                        <h3>Service2</h3>
                         <p>
-                            Description about hobby2
+                            Description about Service2
                         </p>
 
                     </div>
@@ -161,9 +161,9 @@
                         <i class="fa fa-desktop fa-4x main-color-red"></i>
 
 
-                        <h3>Hobby3</h3>
+                        <h3>Service3</h3>
                         <p>
-                            Description about hobby3
+                            Description about Service3
                         </p>
 
                     </div>
@@ -176,9 +176,9 @@
                         <i class="fa fa-folder fa-4x main-color-red"></i>
 
 
-                        <h3>Hobby4 </h3>
+                        <h3>Service4 </h3>
                         <p>
-                            Description  about hobby4
+                            Description  about Service4
                         </p>
 
                     </div>
@@ -187,9 +187,9 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-12">
-                    <h2>More about Hobbies and interests</h2>
+                    <h2>More about Professional Services</h2>
                     <p>
-                        More about Hobbies and interests goes here.....
+                        More about Services and interests goes here.....
                     </p>
                 </div>
 
@@ -204,16 +204,16 @@
 
             <div class="row text-center for-parallax-one">
                 <div class="col-md-6 ">
-                    <h3>My Strength</h3>
+                    <h3>Technologies worked With</h3>
                     <h4>
-                        <strong>My Strength goes here....
+                        <strong>List of Technologies goes here....
                         </strong>
                     </h4>
                 </div>
                 <div class="col-md-6 ">
-                    <h3>My Weakness</h3>
+                    <h3>Industries Worked With</h3>
                     <h4>
-                        <strong>My Weakness goes here...
+                        <strong>List of Industries goes here...
                         </strong>
                     </h4>
                 </div>
@@ -236,7 +236,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>My Career</h1>
                     <h4>
-                        <strong>My Career and job
+                        <strong>Experience description goes here..
                         </strong>
                     </h4>
                 </div>
@@ -250,7 +250,7 @@
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">Skill 1 Title</li>
+                            <li class="plan-head">Mobile Apps Development</li>
                             <li class="main-price">Skill Description</li>
                             <li>more about Skill...</li>
                             <li class="bottom">
@@ -261,7 +261,7 @@
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">Skill 2 Title</li>
+                            <li class="plan-head">Web Development</li>
                             <li class="main-price">Skill Description</li>
                             <li>more about Skill...</li>
                             <li class="bottom">
@@ -271,7 +271,7 @@
                     </div>
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">Skill 3 Title</li>
+                            <li class="plan-head">Server-side Development</li>
                             <li class="main-price">Skill Description</li>
                             <li>more about Skill...</li>
                             <li class="bottom">
@@ -282,7 +282,7 @@
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">Skill 4 Title</li>
+                            <li class="plan-head">Desktop Apps Development</li>
                             <li class="main-price">Skill Description</li>
                             <li>more about Skill...</li>
                             <li class="bottom">
