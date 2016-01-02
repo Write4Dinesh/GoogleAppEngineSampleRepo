@@ -52,15 +52,15 @@
             <!-- Collect the nav links for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">Section1</a>
+                    <li><a href="#home">About Me</a>
                     </li>
-                    <li><a href="#about">Section2</a>
-                    </li>
-
-                    <li><a href="#price-sec">Section3</a>
+                    <li><a href="#hobby">My Hobby</a>
                     </li>
 
-                    <li><a href="#contact-sec">Section4</a>
+                    <li><a href="#price-sec">My Career</a>
+                    </li>
+
+                    <li><a href="#contact-sec">Contact Me</a>
                     </li>
                     <li><a href="#"><strong>e-mail:</strong>  dinesh.masthaiah@gmail.com</a>
                     </li>
@@ -78,7 +78,7 @@
         <div class="row text-center">
             <div class="col-md-12">
                 <h1 class="head-main">DINESH MASTHAIAH</h1>
-                <h2 class="head-sub-main">A Software Professional</h2>
+                <h2 class="head-sub-main">Software Professional</h2>
                 <a class="btn btn-danger btn-lg " href="#about">Read More About Me </a><a class="btn btn-default btn-lg" href="#contact-sec">Leave Comment About Me</a>
                 <div class="head-last"></div>
 
@@ -88,18 +88,35 @@
         </div>
     </div>
     <!--End Header section  -->
-
-
-    <!-- Section 2-->
+ <!-- Section 2-My Hobby-->
     <section class="for-full-back color-white" id="about">
+        <div class="container">
+
+            
+                
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2>More about me goes here...</h2>
+                    <p>
+                        Detailed info about me goes here..
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Section 2-My Hobby-->
+    <section class="for-full-back color-white" id="hobby">
         <div class="container">
 
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1>Section 2 Goes here.....</h1>
+                    <h1>My Hobby</h1>
                     <h4>
-                        <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        <strong>List of hobbies goes here..
                         </strong>
                     </h4>
                 </div>
@@ -114,10 +131,9 @@
                         <i class="fa fa-camera fa-4x main-color-red"></i>
 
 
-                        <h3>Dynamic </h3>
+                        <h3>Hobby1 </h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                            Description about hobby1
                         </p>
 
                     </div>
@@ -130,10 +146,9 @@
                         <i class="fa fa-briefcase fa-4x main-color-red"></i>
 
 
-                        <h3>100% Free </h3>
+                        <h3>Hobby2</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                            Description about hobby2
                         </p>
 
                     </div>
@@ -146,10 +161,9 @@
                         <i class="fa fa-desktop fa-4x main-color-red"></i>
 
 
-                        <h3>Responsive </h3>
+                        <h3>Hobby3</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                            Description about hobby3
                         </p>
 
                     </div>
@@ -162,10 +176,9 @@
                         <i class="fa fa-folder fa-4x main-color-red"></i>
 
 
-                        <h3>Subscribe </h3>
+                        <h3>Hobby4 </h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                            Description  about hobby4
                         </p>
 
                     </div>
@@ -174,24 +187,9 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-12">
-                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <h2>More about Hobbies and interests</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        More about Hobbies and interests goes here.....
                     </p>
                 </div>
 
@@ -206,18 +204,16 @@
 
             <div class="row text-center for-parallax-one">
                 <div class="col-md-6 ">
-                    <h3>Lorem ipsum dolor</h3>
+                    <h3>My Strength</h3>
                     <h4>
-                        <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        <strong>My Strength goes here....
                         </strong>
                     </h4>
                 </div>
                 <div class="col-md-6 ">
-                    <h3>Lorem ipsum dolor</h3>
+                    <h3>My Weakness</h3>
                     <h4>
-                        <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        <strong>My Weakness goes here...
                         </strong>
                     </h4>
                 </div>
@@ -232,16 +228,15 @@
 
 
 
-    <!-- Pricing Section -->
+    <!-- Section3-My Hobby -->
 
     <section class="for-full-back color-white " id="price-sec">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1>Section 3 Goes here...</h1>
+                    <h1>My Career</h1>
                     <h4>
-                        <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        <strong>My Career and job
                         </strong>
                     </h4>
                 </div>
@@ -255,43 +250,43 @@
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">BASIC RATE</li>
-                            <li class="main-price">$99 only</li>
-                            <li><strong>per </strong>hour</li>
+                            <li class="plan-head">Skill 1 Title</li>
+                            <li class="main-price">Skill Description</li>
+                            <li>more about Skill...</li>
                             <li class="bottom">
-                                <a href="#contact-sec" class="btn btn-default">BOOK</a>
+                                <a href="#contact-sec" class="btn btn-default">Read More</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">SIMPLE RATE</li>
-                            <li class="main-price">$199 only</li>
-                            <li><strong>per </strong>hour</li>
+                            <li class="plan-head">Skill 2 Title</li>
+                            <li class="main-price">Skill Description</li>
+                            <li>more about Skill...</li>
                             <li class="bottom">
-                                <a href="#contact-sec" class="btn btn-default">BOOK</a>
+                                <a href="#contact-sec" class="btn btn-default">Read More</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">VALUE RATE</li>
-                            <li class="main-price">$299 only</li>
-                            <li><strong>per </strong>hour</li>
+                            <li class="plan-head">Skill 3 Title</li>
+                            <li class="main-price">Skill Description</li>
+                            <li>more about Skill...</li>
                             <li class="bottom">
-                                <a href="#contact-sec" class="btn btn-default">BOOK</a>
+                                <a href="#contact-sec" class="btn btn-default">Read More</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-md-3">
                         <ul class="plan">
-                            <li class="plan-head">ADVANCE RATE</li>
-                            <li class="main-price">$399 only</li>
-                            <li><strong>per </strong>hour</li>
+                            <li class="plan-head">Skill 4 Title</li>
+                            <li class="main-price">Skill Description</li>
+                            <li>more about Skill...</li>
                             <li class="bottom">
-                                <a href="#contact-sec" class="btn btn-default">BOOK</a>
+                                <a href="#contact-sec" class="btn btn-default">Read More</a>
                             </li>
                         </ul>
                     </div>
@@ -302,16 +297,15 @@
 
         </div>
     </section>
-<!-- Section 4 Goes here.... -->
+<!-- Section 4. Contact Me... -->
     <section class="for-full-back for-parallax-two" id="Parallax-two">
         <div class="container">
 
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Section 4 Goes here....</h1>
+                    <h1>Contact Me</h1>
                     <h4>
-                        <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        <strong>More About why and how you can contact me
                         </strong>
                     </h4>
                 </div>
@@ -391,7 +385,7 @@
     <!--End Contact Section -->
     <!--footer Section -->
     <div class="for-full-back " id="footer">
-        2014 www.yourdomain.com | All Right Reserved
+        2016 www.iamdineshmasthaiah.com | All Right Reserved
          
     </div>
     <!--End footer Section -->
