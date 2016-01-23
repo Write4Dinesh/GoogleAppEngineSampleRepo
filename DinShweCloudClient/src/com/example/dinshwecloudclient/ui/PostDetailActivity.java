@@ -1,4 +1,9 @@
-package com.example.dinshwecloudclient;
+package com.example.dinshwecloudclient.ui;
+
+import com.example.dinshwecloudclient.Post;
+import com.example.dinshwecloudclient.R;
+import com.example.dinshwecloudclient.R.id;
+import com.example.dinshwecloudclient.R.layout;
 
 import android.app.Activity;
 import android.os.Bundle;

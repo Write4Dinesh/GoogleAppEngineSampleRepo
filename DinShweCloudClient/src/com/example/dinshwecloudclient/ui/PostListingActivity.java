@@ -1,8 +1,15 @@
-package com.example.dinshwecloudclient;
+package com.example.dinshwecloudclient.ui;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.example.dinshwecloudclient.Post;
+import com.example.dinshwecloudclient.PostAdapter;
+import com.example.dinshwecloudclient.R;
+import com.example.dinshwecloudclient.RetreivePostsTask;
+import com.example.dinshwecloudclient.TaskCompletedCallback;
+import com.example.dinshwecloudclient.R.id;
+import com.example.dinshwecloudclient.R.layout;
 import com.google.gson.mm.GsonBuilder;
 import com.google.gson.mm.reflect.TypeToken;
 

@@ -1,4 +1,4 @@
-package com.example.dinshwecloudclient;
+package com.example.dinshwecloudclient.ui;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -10,6 +10,11 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URL;
+
+import com.example.dinshwecloudclient.R;
+import com.example.dinshwecloudclient.R.id;
+import com.example.dinshwecloudclient.R.layout;
+import com.example.dinshwecloudclient.R.menu;
 
 import android.app.Activity;
 import android.content.Intent;
