@@ -12,6 +12,7 @@ import java.net.URI;
 import java.net.URL;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -50,54 +51,9 @@ private TextView jsonTextView = null;
 		
 	}
  private void getPosts(){
-	 
-	Thread t = new Thread(new Runnable(){
-
-		@Override
-		public void run() { 
-			URL url;
-			try {
-				//url = new URL("http://10.0.2.2:8888/Services/V1/GetAllPosts");
-				url = new URL("http://dinshwecloudstore.appspot.com/Services/V1/GetAllPosts");
-			
-			HttpURLConnection con = (HttpURLConnection)url.openConnection();
-			con.connect();
-			int responseCode = con.getResponseCode();
-			if(responseCode == HttpURLConnection.HTTP_OK){
-				InputStream in = con.getInputStream();
-				InputStreamReader inputReader = new InputStreamReader(in);
-				BufferedReader reader = new BufferedReader(inputReader);
-				String line = null;
-				StringBuilder builder = new StringBuilder();
-				while((line = reader.readLine())!=null){
-					builder.append(line);
-				}
-				reader.close();
-				jsonTextView.setText(builder.toString());
-				System.out.println("data=" + builder.toString());
-				
-			}
-			System.out.println("response code = " + responseCode);
-			} catch (MalformedURLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		
-	}); 
-	progress.setVisibility(View.VISIBLE);
-	t.start();
-	try {
-		t.join();
-		progress.setVisibility(View.INVISIBLE);
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+	 Intent intent = new Intent(this,PostListingActivity.class);
+	 startActivity(intent);
+	
  }
 
 	@Override

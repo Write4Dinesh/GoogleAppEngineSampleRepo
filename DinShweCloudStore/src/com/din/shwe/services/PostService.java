@@ -34,7 +34,7 @@ private HttpServletResponse mHttpResponse = null;
 		mQueryString = mHttpRequest.getQueryString();
 		
 		mHttpResponse.setContentType("application/json");
-		response.getWriter().write("<h1>ServiceURI = /Services/V1/GetAllPosts</h1><Br/>");
+		//response.getWriter().write("<h1>ServiceURI = /Services/V1/GetAllPosts</h1><Br/>");
 		System.out.println("User-Agent:" + mUserAgent);
 		System.out.println("Request URI=" + this.mRequestUri);
 		System.out.println("Query String=" + mQueryString);
