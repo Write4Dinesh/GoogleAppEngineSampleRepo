@@ -57,7 +57,8 @@ private TextView jsonTextView = null;
 		public void run() { 
 			URL url;
 			try {
-				url = new URL("http://10.0.2.2:8888/Services/V1/GetAllPosts");
+				//url = new URL("http://10.0.2.2:8888/Services/V1/GetAllPosts");
+				url = new URL("http://dinshwecloudstore.appspot.com/Services/V1/GetAllPosts");
 			
 			HttpURLConnection con = (HttpURLConnection)url.openConnection();
 			con.connect();
