@@ -1,20 +1,6 @@
 package com.example.dinshwecloudclient.ui;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URL;
-
 import com.example.dinshwecloudclient.R;
-import com.example.dinshwecloudclient.R.id;
-import com.example.dinshwecloudclient.R.layout;
-import com.example.dinshwecloudclient.R.menu;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -24,18 +10,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 public class HomeActivity extends Activity {
-private ProgressBar progress = null;
 private Button getButton = null;
 private TextView jsonTextView = null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
-		progress = (ProgressBar)findViewById(R.id.progress);
 		 getButton = (Button)findViewById(R.id.getBtn);
 		 jsonTextView =(TextView)findViewById(R.id.json_text);
 		 getButton.setOnClickListener(new OnClickListener() {

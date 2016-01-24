@@ -6,30 +6,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/screen_background"
     tools:context="com.example.dinshwecloudclient.ui.HomeActivity" >
 
     <TextView
         android:id="@+id/json_text"
         android:layout_height="200dp"
+        android:textColor="@color/primary_text"
         android:layout_width="match_parent"
-        android:text="@string/json_text" />
+        android:text="Home Screen" />
 
     <Button
         android:id="@+id/getBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/json_text"
+        android:textColor="@color/primary_text"
          android:layout_marginTop="73dp"
-        android:text="GetJson" />
+        android:text="Get Posts From Server" />
 
-    <ProgressBar
-        android:id="@+id/progress"
-        android:indeterminate="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/getBtn"
-        android:layout_marginLeft="96dp"
-        android:visibility="invisible"
-        android:layout_marginTop="31dp" />
 
 </RelativeLayout>

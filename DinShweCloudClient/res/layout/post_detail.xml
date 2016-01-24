@@ -6,6 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/screen_background"
     tools:context="com.example.dinshwecloudclient.ui.HomeActivity" >
 
     <TextView
@@ -15,18 +16,21 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
+        android:textColor="@color/primary_text"
         android:text="Title goes here" />
      <TextView
         android:id="@+id/date_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/title_view"
+        android:textColor="@color/primary_text"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:text="Date goes here" />
      <TextView
         android:id="@+id/message_view"
         android:layout_width="match_parent"
+        android:textColor="@color/primary_text"
         android:layout_height="match_parent"
         android:layout_below="@+id/date_view"
         android:layout_marginLeft="10dp"
