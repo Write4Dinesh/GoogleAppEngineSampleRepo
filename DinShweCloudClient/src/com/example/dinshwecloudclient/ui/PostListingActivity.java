@@ -56,8 +56,8 @@ public class PostListingActivity extends Activity {
 				}
 			}
 		});
-	 task.execute(EndpointURL.LOCAL_GOOGLE_APPSPOT_URL.toString());
-	 //task.execute(EndpointURL.REMOTE_GOOGLE_APPSPOT_URL.toString());
+	 //task.execute(EndpointURL.LOCAL_GOOGLE_APPSPOT_URL.toString());
+	 task.execute(EndpointURL.REMOTE_GOOGLE_APPSPOT_URL.toString());
  }
 	private void handleError(ResponseCode code) {
 		Toast.makeText(this, code.ErrorDescription, Toast.LENGTH_LONG).show();
