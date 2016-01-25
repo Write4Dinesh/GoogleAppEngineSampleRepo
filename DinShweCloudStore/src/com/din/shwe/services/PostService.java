@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.din.shwe.data.PostDao;
 import com.din.shwe.data.model.Post;
+import com.din.shwe.utility.DinCryptoAndSecurity;
 import com.google.gson.mm.Gson;
 import com.google.gson.mm.GsonBuilder;
 
@@ -50,7 +51,13 @@ private HttpServletResponse mHttpResponse = null;
 		else if (mRequestUri.equals("")){
 			//TODO:
 		}
-		mHttpResponse.getWriter().write(outputJson);
+		DinCryptoAndSecurity cryptoService = new DinCryptoAndSecurity();
+		String encryptionKey, initVector, dataToBeEncrypted;
+		encryptionKey = "dinesh@masthaiah";
+		initVector = "RandomInitVector";
+		dataToBeEncrypted = outputJson;
+		String encrypted = cryptoService.encrypt(encryptionKey, initVector, dataToBeEncrypted);
+		mHttpResponse.getWriter().write(encrypted);
 		mHttpResponse.getWriter().close();
 	}
  private String getAllPosts(){

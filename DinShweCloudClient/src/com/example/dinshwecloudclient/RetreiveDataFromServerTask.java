@@ -8,6 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import com.example.dinshwecloudclient.utility.DinCryptoAndSecurity;
 import com.example.dinshwecloudclient.utility.DinShweLogger;
 import com.example.dinshwecloudclient.utility.EndpointURL;
 import com.example.dinshwecloudclient.utility.ResponseCode;
@@ -68,10 +69,16 @@ public class RetreiveDataFromServerTask extends AsyncTask<String, Integer, TaskR
 					builder.append(line);
 				}
 				reader.close();
-				System.out.println("data=" + builder.toString());
-
 				result.responseCode = ResponseCode.SUCCESS;
 				result.result = builder.toString();
+				DinCryptoAndSecurity cryptoService = new DinCryptoAndSecurity();
+				String encryptionKey, initVector, dataToBeEncrypted;
+				encryptionKey = "dinesh@masthaiah";
+				initVector = "RandomInitVector";
+				dataToBeEncrypted = result.result;
+				result.result = cryptoService.decrypt(encryptionKey, initVector, dataToBeEncrypted);
+				DinShweLogger.debugLog("Json Response from Server:" + result.result);
+				
 			}
 			else {
 				result.responseCode = ResponseCode.HTTP_ERROR;
