@@ -1,6 +1,7 @@
 package com.example.dinshwecloudclient.ui;
 
 import com.example.dinshwecloudclient.R;
+import com.example.dinshwecloudclient.location.LocationActivity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,6 +16,7 @@ import android.widget.TextView;
 public class HomeActivity extends Activity {
 private Button getButton = null;
 private TextView jsonTextView = null;
+private Button getLocBtn = null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -29,9 +31,20 @@ private TextView jsonTextView = null;
 				
 			}
 		});
-		 
+		 getLocBtn = (Button)findViewById(R.id.loc_button); 
+		 getLocBtn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				startLocActivity();
+				
+			}
+		}); 
 	}
-	
+	private void startLocActivity(){
+		Intent i = new Intent(this,LocationActivity.class);
+		startActivity(i);
+	}
 
 	@Override
 	protected void onResume() {
