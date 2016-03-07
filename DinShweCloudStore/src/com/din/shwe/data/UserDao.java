@@ -1,7 +1,7 @@
 package com.din.shwe.data;
 
-import com.din.shwe.constants.TableColumn;
 import com.din.shwe.data.model.User;
+import com.din.shwe.utility.TableColumn;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -26,7 +26,6 @@ public class UserDao {
 		try {
 			e = mDataStore.get(e.getKey());
 		} catch (EntityNotFoundException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 			return null;
 		}
@@ -64,6 +63,9 @@ public class UserDao {
 		return userEntity;
 	}
 	private User getUserFromEntity(Entity userEntity) {
+		if(userEntity==null){
+			return null;
+		}
 		User user  = new User();
 		user.setUserName(userEntity.getProperty(TableColumn.User.USER_NAME).toString());
 		user.setPassword(userEntity.getProperty(TableColumn.User.PASSWORD).toString());
