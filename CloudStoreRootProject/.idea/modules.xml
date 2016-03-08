@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CloudStoreRootProject.iml" filepath="$PROJECT_DIR$/CloudStoreRootProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DinShweCloudStore/DinShweCloudStore.iml" filepath="$PROJECT_DIR$/DinShweCloudStore/DinShweCloudStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dinShweCloudClient/dinShweCloudClient.iml" filepath="$PROJECT_DIR$/dinShweCloudClient/dinShweCloudClient.iml" />
+    </modules>
+  </component>
+</project>

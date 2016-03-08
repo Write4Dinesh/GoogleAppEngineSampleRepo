@@ -1,0 +1,277 @@
+[
+    {
+        "outputFile": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 5,
+                        "startOffset": 163,
+                        "endColumn": 56,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 111,
+                    "endColumn": 51,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 5,
+                        "startOffset": 109,
+                        "endColumn": 52,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 46,
+                    "endOffset": 205
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 9,
+                        "startOffset": 383,
+                        "endColumn": 51,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 210,
+                    "endColumn": 51,
+                    "endOffset": 257
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 5,
+                        "startOffset": 270,
+                        "endColumn": 52,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 262,
+                    "endColumn": 48,
+                    "endOffset": 306
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 5,
+                        "startOffset": 58,
+                        "endColumn": 49,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 311,
+                    "endColumn": 48,
+                    "endOffset": 355
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 9,
+                        "startOffset": 328,
+                        "endColumn": 53,
+                        "endOffset": 372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 360,
+                    "endColumn": 46,
+                    "endOffset": 402
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 5,
+                        "startOffset": 221,
+                        "endColumn": 47,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 407,
+                    "endColumn": 57,
+                    "endOffset": 460
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 465,
+                    "endColumn": 55,
+                    "endOffset": 516
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 521,
+                    "endColumn": 52,
+                    "endOffset": 569
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 52,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 574,
+                    "endColumn": 55,
+                    "endOffset": 625
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 55,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 630,
+                    "endColumn": 47,
+                    "endOffset": 673
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endColumn": 47,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 678,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 964
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 969,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1124
+                },
+                "from": {
+                    "file": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]
