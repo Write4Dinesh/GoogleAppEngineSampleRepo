@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 manifest
 ADDED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudClient\src\main\AndroidManifest.xml:2:1-40:12
+	xmlns:android
+		ADDED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudClient\src\main\AndroidManifest.xml:2:11-69
 	package
 		ADDED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudClient\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudClient\src\main\AndroidManifest.xml
@@ -13,8 +15,6 @@ ADDED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudCli
 		ADDED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudClient\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudClient\src\main\AndroidManifest.xml
 		INJECTED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudClient\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudClient\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from C:\MyWorkspace\MyCloudStoreRepo\CloudStoreRootProject\dinShweCloudClient\src\main\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion

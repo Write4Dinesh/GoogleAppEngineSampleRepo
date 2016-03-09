@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\layout\\post_list_item_template.xml",
-        "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\layout\\post_list_item_template.xml"
+        "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\layout\\listing_posts.xml",
+        "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\layout\\listing_posts.xml"
     },
     {
         "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
         "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
+        "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\layout\\post_detail.xml",
+        "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\layout\\post_detail.xml"
+    },
+    {
         "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\layout\\add_post.xml",
         "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\layout\\add_post.xml"
     },
     {
-        "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\layout\\listing_posts.xml",
-        "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\layout\\listing_posts.xml"
-    },
-    {
-        "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\layout\\post_detail.xml",
-        "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\layout\\post_detail.xml"
+        "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\layout\\post_list_item_template.xml",
+        "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\layout\\post_list_item_template.xml"
     }
 ]
