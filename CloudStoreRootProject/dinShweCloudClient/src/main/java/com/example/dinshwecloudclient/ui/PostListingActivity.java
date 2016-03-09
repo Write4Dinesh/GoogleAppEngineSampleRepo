@@ -16,6 +16,7 @@ import com.example.dinshwecloudclient.PostAdapter;
 import com.example.dinshwecloudclient.R;
 import com.example.dinshwecloudclient.RetreiveDataFromServerTask;
 import com.example.dinshwecloudclient.TaskResult;
+import com.example.dinshwecloudclient.utility.BuildSettings;
 import com.example.dinshwecloudclient.utility.EndpointURL;
 import com.example.dinshwecloudclient.utility.ResponseCode;
 import com.google.gson.GsonBuilder;
@@ -56,8 +57,8 @@ public class PostListingActivity extends Activity {
 				}
 			}
 		});
-	 task.execute(EndpointURL.LOCAL_GOOGLE_APPSPOT_URL.toString());
-	 //task.execute(EndpointURL.REMOTE_GOOGLE_APPSPOT_URL.toString());
+	 String url  = BuildSettings.isLocalHost?EndpointURL.LOCAL_GOOGLE_APPSPOT_URL.toString():EndpointURL.REMOTE_GOOGLE_APPSPOT_URL.toString();
+	 task.execute(url);
  }
 	private void handleError(ResponseCode code) {
 		Toast.makeText(this, code.ErrorDescription, Toast.LENGTH_LONG).show();

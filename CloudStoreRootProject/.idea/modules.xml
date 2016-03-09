@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CloudStoreRootProject.iml" filepath="$PROJECT_DIR$/CloudStoreRootProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DinShweCloudClient/DinShweCloudClient.iml" filepath="$PROJECT_DIR$/DinShweCloudClient/DinShweCloudClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/DinShweCloudStore/DinShweCloudStore.iml" filepath="$PROJECT_DIR$/DinShweCloudStore/DinShweCloudStore.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dinShweCloudClient/dinShweCloudClient.iml" filepath="$PROJECT_DIR$/dinShweCloudClient/dinShweCloudClient.iml" />
     </modules>
   </component>
 </project>

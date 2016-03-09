@@ -1,8 +1,5 @@
 package com.example.dinshwecloudclient.ui;
 
-import com.example.dinshwecloudclient.R;
-import com.example.dinshwecloudclient.location.LocationActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,15 +10,19 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.dinshwecloudclient.R;
+import com.example.dinshwecloudclient.location.LocationActivity;
+
 public class HomeActivity extends Activity {
 private Button getButton = null;
+	private Button addPostBtn = null;
 private TextView jsonTextView = null;
 private Button getLocBtn = null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
-		 getButton = (Button)findViewById(R.id.getBtn);
+		 getButton = (Button)findViewById(R.id.get_post_btn);
 		 jsonTextView =(TextView)findViewById(R.id.json_text);
 		 getButton.setOnClickListener(new OnClickListener() {
 			
@@ -39,13 +40,27 @@ private Button getLocBtn = null;
 				startLocActivity();
 				
 			}
-		}); 
+		});
+		addPostBtn = (Button)findViewById(R.id.add_post_btn);
+		addPostBtn.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				createPost();
+
+			}
+		});
 	}
 	private void startLocActivity(){
 		Intent i = new Intent(this,LocationActivity.class);
 		startActivity(i);
 	}
 
+	private void createPost(){
+		Intent i = new Intent(this,CreateOrEditPostActivity.class);
+		i.putExtra(CreateOrEditPostActivity.MODE_CREATE_POST,true);
+		startActivity(i);
+	}
 	@Override
 	protected void onResume() {
 		super.onResume();

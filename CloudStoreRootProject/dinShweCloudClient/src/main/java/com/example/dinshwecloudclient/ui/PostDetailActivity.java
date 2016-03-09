@@ -1,13 +1,12 @@
 package com.example.dinshwecloudclient.ui;
 
-import com.example.dinshwecloudclient.Post;
-import com.example.dinshwecloudclient.R;
-import com.example.dinshwecloudclient.R.id;
-import com.example.dinshwecloudclient.R.layout;
-
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.dinshwecloudclient.Post;
+import com.example.dinshwecloudclient.R;
 
 public class PostDetailActivity extends Activity {
  private TextView titleView;
@@ -30,7 +29,11 @@ public class PostDetailActivity extends Activity {
 		dateView.setText(post.date);
 		messageView.setText(post.message);
 	}
-
+	private void editPost(){
+		Intent i = new Intent(this,CreateOrEditPostActivity.class);
+		i.putExtra(CreateOrEditPostActivity.MODE_CREATE_POST, true);
+		startActivity(i);
+	}
 	@Override
 	protected void onPause() {
 		// TODO Auto-generated method stub

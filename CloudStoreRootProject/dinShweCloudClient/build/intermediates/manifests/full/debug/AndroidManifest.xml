@@ -34,6 +34,7 @@
         </activity>
         <activity android:name="com.example.dinshwecloudclient.ui.PostListingActivity" />
         <activity android:name="com.example.dinshwecloudclient.ui.PostDetailActivity" />
+        <activity android:name="com.example.dinshwecloudclient.ui.CreateOrEditPostActivity" />
         <activity android:name="com.example.dinshwecloudclient.location.LocationActivity" />
     </application>
 

@@ -1,1 +1,1 @@
-include ':dinShweCloudClient', ':DinShweCloudStore'
+include ':DinShweCloudClient', ':DinShweCloudStore'

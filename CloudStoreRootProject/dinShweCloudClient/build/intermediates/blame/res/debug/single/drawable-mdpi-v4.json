@@ -2,5 +2,9 @@
     {
         "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.jpg",
         "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\dinShweCloudClient\\src\\main\\res\\drawable-mdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\DinShweCloudClient\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.jpg",
+        "source": "C:\\MyWorkspace\\MyCloudStoreRepo\\CloudStoreRootProject\\DinShweCloudClient\\src\\main\\res\\drawable-mdpi\\ic_launcher.jpg"
     }
 ]

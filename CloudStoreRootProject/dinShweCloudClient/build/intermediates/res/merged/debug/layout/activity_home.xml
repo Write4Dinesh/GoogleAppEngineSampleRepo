@@ -14,22 +14,29 @@
         android:layout_height="200dp"
         android:textColor="@color/primary_text"
         android:layout_width="match_parent"
-        android:text="Home Screen" />
+        android:text="DINESH MASTHAIAH" />
 
     <Button
-        android:id="@+id/getBtn"
+        android:id="@+id/get_post_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/json_text"
         android:textColor="@color/primary_text"
          android:layout_marginTop="73dp"
         android:text="Get Posts From Server" />
-
+    <Button
+        android:id="@+id/add_post_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/get_post_btn"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="73dp"
+        android:text="Create Post" />
     <Button
         android:id="@+id/loc_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/getBtn"
+        android:layout_alignLeft="@+id/get_post_btn"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="63dp"
         android:text="LocationTest" />
